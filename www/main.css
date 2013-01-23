@@ -1,0 +1,89 @@
+/*
+    Dark grey: 545454
+    Light grey: 707070
+    Pale grey: B8B8B8
+    Dark red: 492424
+*/
+
+#centerSlot
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #545454;
+    postition: relative;
+}
+
+#resume 
+{
+    color: #545454;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+#socialBar
+{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    margin-left:81px;
+}
+
+#socialLinks
+{
+    margin-left: 25px;
+    width: 100%;
+}
+
+.social
+{
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+    float: left;
+
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+#lastFm
+{
+    background-image: url("assets/images/logos/bw/lastfm.png");
+}
+
+#facebook
+{
+    background-image: url("assets/images/logos/bw/facebook.png");
+}
+
+#twitter
+{
+    background-image: url("assets/images/logos/bw/twitter.png");
+}
+
+
+#googlePlus
+{
+    background-image: url("assets/images/logos/bw/googleplus.png");
+}
+
+#linkedIn
+{
+    background-image: url("assets/images/logos/bw/linkedin.png");
+}
+
+#blogger
+{
+    background-image: url("assets/images/logos/bw/blogger.png");
+}
+
+
