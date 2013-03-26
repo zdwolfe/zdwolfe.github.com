@@ -1,3 +1,6 @@
-[submodule "resume"]
-	path = resume
-	url = git@github.com:zdwolfe/resume.git
+[submodule "www/vendor/bootstrap"]
+	path = www/vendor/bootstrap
+	url = git://github.com/twitter/bootstrap.git
+[submodule "www/vendor/font-awesome"]
+	path = www/vendor/font-awesome
+	url = git://github.com/FortAwesome/Font-Awesome.git
