@@ -1,0 +1,54 @@
+.vcontainer {
+  height: 100%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main > .row {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#main > .row > div {
+  padding: 0;
+}
+
+#main > .row:first-child > div {
+  border-bottom: 3px solid #555;
+}
+
+#name {
+  font-family: 'atrament-web','Helvetica',sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+.contact-icon {
+  padding-right: 2px;
+  padding-left: 2px;
+  border: none;
+  display: inline-block;
+}
+
+#picture {
+  width: 100%;
+}
+
+#location-text {
+  text-transform: lowercase;
+  margin-left: 20px;
+}
+
+ul#contact-list {
+  display: table-row;
+}
+
+ul#contact-list > li {
+  display: table-cell;
+  padding: 5px;
+}
