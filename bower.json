@@ -1,0 +1,22 @@
+{
+  "name": "zdwolfe.github.io",
+  "version": "0.0.1",
+  "homepage": "http://zdwolfe.github.io",
+  "authors": [
+    "zdwolfe <wolfe.zach@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "bootstrap": "~3.0.3",
+    "components-font-awesome": "~4.0.3"
+  }
+}
