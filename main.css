@@ -1,32 +1,14 @@
-.vcontainer {
-  height: 100%;
-}
-
 #main {
-    margin: 0 auto;
-    float: none;
     height: 100%;
 }
 
-#main > .row {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-#main > .row > div {
-  padding: 0;
-}
-
-#main > .row:first-child > div {
-  border-bottom: 3px solid #555;
-}
-
-#name {
+#name-row {
   font-family: 'atrament-web','Helvetica',sans-serif;
   font-size: 22px;
   font-weight: normal;
   text-transform: lowercase;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #555;
 }
 
 .contact-icon {
@@ -36,20 +18,21 @@
   display: inline-block;
 }
 
-#picture {
-  width: 100%;
-}
-
 #location-text {
   text-transform: lowercase;
   margin-left: 20px;
 }
 
-ul#contact-list {
-  display: table-row;
+#gravatar {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-ul#contact-list > li {
-  display: table-cell;
-  padding: 5px;
+#contact-list {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bottom-row {
+  margin-top: 24px;
 }
